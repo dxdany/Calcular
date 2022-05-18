@@ -1,6 +1,5 @@
 package com.dxdany;
 
-
 public class Calculadora {
 	private int num1;
 	private int num2;
