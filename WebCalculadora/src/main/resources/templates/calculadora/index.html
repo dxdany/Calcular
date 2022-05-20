@@ -26,9 +26,9 @@
 		<p>Operación: 
 			<select th:field="*{operador}" class="form-control">
 				<option value="+">Suma (+)</option>
-				<option value="-">Suma (-)</option>
-				<option value="*">Suma (*)</option>
-				<option value="/">Suma (/)</option>
+				<option value="-">Resta (-)</option>
+				<option value="*">Multiplicación (*)</option>
+				<option value="/">División (/)</option>
 			</select>
 			<p>
 			<label th:text="'Resultado de:' + *{num1}+ *{operador} + *{num2} + '=' + *{resultado}"> </label>
